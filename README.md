@@ -9,18 +9,6 @@ This project was built to:
 - Support e-governance and digital transparency initiatives
 - Serve as a template for future civic tech platforms in Zambia
 
-🛠️ Tech Stack
-- HTML5 / CSS3 – Clean, responsive layout
-- JavaScript – Interactive elements and dynamic data loading
-- Bootstrap – Mobile-first design and UI components
-
-📸 Features
-- Constituency and ward listings by province
-- Search and filter functionality
-- Embedded maps or location markers (if implemented)
-- Mobile-friendly layout for rural accessibility
-- Easy-to-update data structure for future expansion
-
 📂 Repo Structure
 /source
   /css
@@ -32,10 +20,9 @@ This project was built to:
 README.md
 
 
-👨🏾‍💻 Author
-Paul Kapelabulunhu
-📍 Lusaka, Zambia
-🔗 LinkedIn | GitHub
+👨🏾‍💻 Author:
+Paul Kapelabulungu
+📍: Lusaka, Zambia
 
 🤝 Contributing
 Pull requests are welcome! If you’d like to expand the dataset, improve UI, or localize content, feel free to fork and collaborate.
