@@ -34,7 +34,6 @@ README.md
 
 👨🏾‍💻 Author
 Paul Kapelabulunhu
-Assistant Technician | Civic Tech Enthusiast
 📍 Lusaka, Zambia
 🔗 LinkedIn | GitHub
 
