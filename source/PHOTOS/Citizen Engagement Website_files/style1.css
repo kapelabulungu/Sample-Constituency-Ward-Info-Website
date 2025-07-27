@@ -1,0 +1,299 @@
+{
+    margin:0;
+    padding: 0;
+}
+
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+header {
+    background-image: url('1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LIST {
+    background-color: #ff7200;
+
+}
+.LIST ul li a {
+    color: white;
+    font-size: 20px;
+}
+.LIST ul li a:hover {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    transition: 0.9s ease-in-out;
+}
+
+.Discussion {
+     background-image: url('2.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Discussion h2 {
+    color: white;
+    font-size: 40px;
+}
+.Discussion ul li {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+.Neighbourhood ul li a{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+
+
+}
+
+
+
+.Events h3 {
+    color: #ff7200;
+}
+.Events P{
+    font-size: 25PX;
+}
+section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+.btn {
+    display: inline-block;
+    background-color: #ff7200;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.cta-button {
+    background-color: #ff7200;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: brown;
+}
+
+main {
+    padding: 4rem;
+    align-text: left;
+}
+
+section {
+    align-text: left;
+    margin: 4rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    align-content: left;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section ul li {
+    margin: 2rem 0;
+}
+
+section ul li h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+section ul li p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('images/1.jpg');
+    background-size:cover;
+    padding: 20px;
+
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    padding: 2PX;
+    margin-left: 15PX;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid gray;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    width: 90%;
+    margin-left: 15PX;
+}
+
+
+
+input[type="submit"] {
+    background-color:#ff7200;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin-left: 15PX;
+}
+
+input[type="submit"]:hover {
+    background-color: brown;
+}
+
+footer {
+    background-color: #ff7200;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}

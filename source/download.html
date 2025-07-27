@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <title>Community Development</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Boxicons CDN Link -->
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+   />
+  
+
+     <style>
+     * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: brown;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+   </head>
+
+
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">CHILENJE WARD 8</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Chilenje Ward 8</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="home.html">HOME</a></li>
+          <li>
+            <a href="download.html">Downloads</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="download.html">CDF Grant</a></li>
+              <li><a href="download.html">CDF Loan</a></li>
+              <li><a href="download.html">CDF condit</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="download.html">Skills Bursary</a></li>
+                  <li><a href="download.html">Sec.Boarding Sch</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="https://www.mlgrd.gov.zm/?page_id=1056">Track Projects</a></li>
+              <li><a href="https://www.mlgrd.gov.zm/">Local Gov</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="download.html">FAQS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script src="JS/script.js"></script>
+
+
+
+</body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="PHOTOS/4.jpg" style="width:100%">
+  <div class="text">ICU ZAMBIA</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="PHOTOS/5.jpeg" style="width:100%">
+  <div class="text">ZRDC</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="PHOTOS/6.jpg" style="width:100%">
+  <div class="text">You are Home</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+
+
+
+
+
+<center><h2 style="margin-top: 50px; font-size: 50px;">2023 CDF Forms</h2></center>
+<div class="Download">
+  <a href="https://acazambia.org/wp-content/uploads/2022/05/CDF-Grant-Application-Form.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Grant</button>
+</a>
+
+<a href="https://www.chilangacouncil.gov.zm/wp-content/uploads/2022/03/LOAN%20EMPOWERMENT%20APPLICATION%20FORM%20FINAL%20202-12-2022.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Loan</button>
+</a>
+
+<a href="https://acazambia.org/wp-content/uploads/2022/05/CDF-Loan-Agreement-Form.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Ts & Cs</button>
+</a>
+
+<a href="https://acazambia.org/wp-content/uploads/2022/05/CDF-Bursary-Application-Form.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Skills</button>
+</a>
+
+<a href="https://acazambia.org/wp-content/uploads/2022/05/SECONDARY-BOARDING-SCHOOL-BURSARY-APPLICATION-FORM-1.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Sec.Boarding Sch</button>
+</a>
+</div>
+
+<center><h2 style="margin-top: 50px; font-size: 50px;">CDF Laws and Guidelines</h2></center>
+<div class="Download2">
+  <a href="https://acazambia.org/wp-content/uploads/2022/02/CDF-GUIDELINES-2022.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> GUIDELINES, 2022</button>
+</a>
+
+<a href="https://acazambia.org/wp-content/uploads/2022/02/The-Constituency-Development-Fund-Act-No.-11-of-2018_2.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> CDF ACT, 2018</button>
+</a>
+
+<a href="https://acazambia.org/wp-content/uploads/2022/05/The-Local-Government-Act-No.-2-of-2019.pdf" download>
+  <button class="btn"><i class="fa fa-download"></i> Local Government Act, 2019</button>
+</a>
+
+</div>
+
+<center><h2 style="margin-top: 50px; font-size: 50px;">TV Programs on Accessing CDF</h2></center>
+
+<div class="vid3">
+  <iframe width="500" height="304" src="https://www.youtube.com/embed/UOAE8hs_c5s" title="Promoting Citizens&#39; Voices in the Management of CDF on the People&#39;s Verdict, Camnet TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="500" height="304" src="https://www.youtube.com/embed/Rm9UAH07i-c" title="Promoting Citizens&#39; Voices in the Management of CDF on Prime TV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+
+  <iframe width="500" height="304" src="https://www.youtube.com/embed/XW0Nj2BkQWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <iframe width="500" height="304" src="https://www.youtube.com/embed/Ua_22RmRwjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+
+
+  <section>
+      <div class="row1">
+        <h2 class="section-heading">OTHER SERVICES</h2>
+      </div>
+      <div class="row1">
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-trash"></i>
+            </div>
+            <h3 id="ser">Garbage Collection</h3>
+            <p id="servicetext">
+              Waste collection is a part of the process of waste management. It is the transfer of solid waste from the point of use and disposal to the point of treatment or landfill.
+            </p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-dumpster"></i>
+            </div>
+            <h3 id="ser">Dumpster Renting</h3>
+            <p id="servicetext">
+             With a dumpster rental, you choose what size dumpster you need and your service provider will drop it off at your desired location for you to fill as needed. 
+            </p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-toilet"></i>
+            </div>
+            <h3 id="ser">Portable Toilets</h3>
+            <p id="servicetext">
+              A portable or mobile toilet is any type of toilet that can be moved around, some by one person, some by mechanical equipment such as a truck and crane.
+            </p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3 id="ser">Zero Waste</h3>
+            <p id="servicetext">
+              Zero waste refers not only to keeping waste out of landfill, but also pushing our economy to be less wasteful in production and consumption.
+            </p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-recycle"></i>
+            </div>
+            <h3 id="ser">Recycling</h3>
+            <p id="servicetext">
+              Recycling is the process of converting waste materials into new materials and objects.
+            </p>
+          </div>
+        </div>
+        <div class="column2">
+          <div class="card2">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck"></i>
+            </div>
+            <h3 id="ser">Industry Pickup</h3>
+            <p id="servicetext">
+              Industrial truck, carrier designed to transport materials within a factory area with maximum flexibility in making moves.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<h2 style="text-align:center">OUR TEAM</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="PHOTOS/mp.jpg" style="width:100%">
+      <div class="containerr">
+        <h2>Hon Andrew Tayengwa</h2>
+        <p class="title">MP</p>
+        <p>Member of Parliament for Kabwata Constituency</p>
+        <p><button class="button">Read more..</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="PHOTOS/tc1.jpg" style="width:100%">
+      <div class="containerr">
+        <h2>Reuben Mwenya</h2>
+        <p class="title">COUNCILLOR</p>
+        <p>Councillor for Chilenje Ward 8 of Kabwata Constituency.</p>
+     
+        <p><button class="button">Read more..</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="PHOTOS/tc.jpg" style="width:100%">
+      <div class="containerr">
+        <h2>COUNCIL</h2>
+        <p class="title">LUSAKA TOWN</p>
+        <p>Lusaka Municipal Council is a Local Authority located in the provincial capital of Lusaka Province,</p>
+        
+        <p><button class="button">Read more..</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Kabwata, Chilenje Ward8</div>
+          <div class="text-two">Lusaka, Zambia</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+260 970 731 645</div>
+          <div class="text-two">+260 970 731 645</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">kabwata@parliament.gov.zm</div>
+          <div class="text-two">parliament.gov.zm</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any questions regarding your Ward/Constituency or concerns please feel free to talk to us by filling the form below or physically visit our offices.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          <textarea placeholder="type your message here..."></textarea>
+        </div>
+        <div class="button2">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+
+<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=904&amp;height=500&amp;hl=en&amp;q=%20chilenje%20ward%208+()&amp;t=h&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+
+
+
+<footer>
+        <div class="footer-content">
+            <h3>KABWATA CONSTITUENCY</h3>
+            <p>Kabwata is a constituency of the National Assembly of Zambia. It covers the Lusaka suburbs of Kabwata, Libala and Chilenje in Lusaka District of Lusaka Province.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Chilenje Ward8</a></p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                       <li><a href="home.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+        </div>
+
+    </footer>
+</html>
